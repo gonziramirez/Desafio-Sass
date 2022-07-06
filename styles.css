@@ -1,0 +1,202 @@
+:root {
+    --grisClaro: #393E46;
+    --grisOscuro: #222831;
+    --bordo: #FF3766;
+}
+
+body {
+
+    display: grid;
+    
+    min-height: 100vh;
+    
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+
+.btnNav {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnNav:hover {
+    background-color: #FFF;
+    color: black;
+    transition: 0.5s;
+}
+
+.logo {
+    color: var(--bordo);
+    padding: 5px 10px;
+}
+
+.logo:hover {
+    color: #FFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.item-nav {
+    color: #FFF;
+}
+
+.item-nav:hover {
+    color: var(--bordo);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.mainP {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/tenis.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.btnP {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.btnP:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.footer-item {
+    color: #FF3766;
+    font-size: 1.5rem;
+}
+
+.footer-item:hover {
+    color: #FFFF;
+    transition: 0.5s;
+}
+
+.bg-darkGrey {
+    background-color: #222831;
+}
+
+.bg-grey{
+    background-color: #393E46;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.text-white {
+    color: #FFF;
+}
+
+.bg-gradient{
+    background-image: linear-gradient(to top, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg-gradient1{
+    background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Servicios */
+#servicios {
+    background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btnS {
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.btnS:hover {
+    background-color: #FFF;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.text-article {
+    width: 31.25rem;
+    height: 25rem;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+  }
+
+/* INICIO MENU HAMBURGUESA ICONO */
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}  
+
+.custom-toggler.navbar-toggler {
+    border-color: var(--bordo);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 55, 102, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* FIN MENU HAMBURGUESA ICONO */
+
+/* INICIO CONTACTO */
+
+.form-contacto{
+    margin: 0 auto;
+    width: 25rem;
+}
+
+textarea{
+    resize: none;
+}
+
+
+.btnC{
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 0.3rem;
+    font-weight: bold;
+
+}
+
+.btnC:hover{
+    background-color: #FFF;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+/* FIN CONTACTO */
+
+/* INICIO UBICACIÓN */
+
+.ubiGoogle{
+    font-size: 5rem;
+}
+
+/* FIN  UBICACIÓN */
